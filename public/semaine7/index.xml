@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semaine 7 : Les fichiers de configuration et examen formatif :: 420-ZG4-MO Linux</title>
+    <link>https://example.org/semaine7/index.html</link>
+    <description>Plan et objectifs de la leçon Théorie :&#xA;Comprendre les rôles des différents fichiers de configuration Savoir les manipuler dans un éditeur de fichiers texte. Examen formatif:&#xA;Examen couvrant les semaines 1 à 6</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.org/semaine7/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

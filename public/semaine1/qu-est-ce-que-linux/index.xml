@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qu&#39;est-ce que Linux ? :: 420-ZG4-MO Linux</title>
+    <link>https://example.org/semaine1/qu-est-ce-que-linux/index.html</link>
+    <description>Qu’est-ce que Linux ? Introduction Linux est un système d’exploitation open-source, ce qui signifie que son code source est librement accessible et modifiable par quiconque. Il a été créé par Linus Torvalds en 1991 et est basé sur le système Unix. Depuis sa création, Linux est devenu l’un des systèmes d’exploitation les plus populaires, notamment pour les serveurs, les superordinateurs, et les appareils embarqués.&#xA;Caractéristiques Principales Open Source : Le code source de Linux est disponible gratuitement, permettant aux utilisateurs de le modifier et de le distribuer. Sécurité : Linux est réputé pour sa robustesse et sa sécurité. Les mises à jour régulières et la communauté active contribuent à maintenir un haut niveau de sécurité. Stabilité : Linux est connu pour sa stabilité et sa capacité à fonctionner pendant de longues périodes sans nécessiter de redémarrage. Personnalisation : Les utilisateurs peuvent personnaliser leur environnement Linux selon leurs besoins, grâce à une multitude de distributions et d’outils disponibles. Distributions Linux Une distribution Linux (ou “distro”) est une version de Linux qui inclut le noyau Linux ainsi que divers logiciels et outils. Voici quelques-unes des distributions les plus populaires :</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.org/semaine1/qu-est-ce-que-linux/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

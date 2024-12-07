@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exécution de commandes à l’aide du Shell Bash :: 420-ZG4-MO Linux</title>
+    <link>https://example.org/semaine2/intro-shell-bash/index.html</link>
+    <description>Le Shell Bash (Bourne Again SHell) est l’un des interpréteurs de commandes les plus populaires sous Linux. Il permet aux utilisateurs d’exécuter des commandes, de manipuler des fichiers, de gérer des processus et d’automatiser des tâches à l’aide de scripts. Cette leçon se concentre sur l’exécution de commandes simples à l’aide du shell Bash.&#xA;Commandes simples date&#xA;Description : Affiche ou définit la date et l’heure du système. Utilisation : date Exemple : Mon Dec 3 11:45:00 EST 2024 passwd</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.org/semaine2/intro-shell-bash/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

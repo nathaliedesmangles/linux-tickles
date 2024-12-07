@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Les commandes de base :: 420-ZG4-MO Linux</title>
+    <link>https://example.org/semaine2/index.html</link>
+    <description>Plan et objectifs de la leçon Théorie :&#xA;Structure du système de fichiers Linux Commandes de navigation de base (ls, cd, pwd, etc.) Atelier :&#xA;Exercices pratiques sur les commandes de base</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.org/semaine2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exécution de commandes à l’aide du Shell Bash</title>
+      <link>https://example.org/semaine2/intro-shell-bash/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/semaine2/intro-shell-bash/index.html</guid>
+      <description>Le Shell Bash (Bourne Again SHell) est l’un des interpréteurs de commandes les plus populaires sous Linux. Il permet aux utilisateurs d’exécuter des commandes, de manipuler des fichiers, de gérer des processus et d’automatiser des tâches à l’aide de scripts. Cette leçon se concentre sur l’exécution de commandes simples à l’aide du shell Bash.&#xA;Commandes simples date&#xA;Description : Affiche ou définit la date et l’heure du système. Utilisation : date Exemple : Mon Dec 3 11:45:00 EST 2024 passwd</description>
+    </item>
+    <item>
+      <title>Structure du système de fichiers Linux</title>
+      <link>https://example.org/semaine2/systeme-fichiers/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/semaine2/systeme-fichiers/index.html</guid>
+      <description>La structure du système de fichiers Linux est hiérarchique et organisée sous la forme d’un arbre inversé, où la racine (root) est représentée par /. Tous les fichiers et répertoires sont situés sous cette racine. Comprendre cette structure est essentiel pour naviguer et gérer efficacement un système Linux.&#xA;La structure du système de fichiers Linux est conçue pour être logique et organisée, facilitant ainsi la gestion et la navigation. Chaque répertoire a un rôle spécifique et contient des types de fichiers bien définis. Comprendre cette structure est crucial pour tout utilisateur ou administrateur de système Linux.</description>
+    </item>
+    <item>
+      <title>Commandes de navigation de base sous Linux</title>
+      <link>https://example.org/semaine2/commandes-base/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/semaine2/commandes-base/index.html</guid>
+      <description>Naviguer dans le système de fichiers Linux est une compétence essentielle pour tout utilisateur. Dans cette leçon vous apprendrez sur les commandes de base qui vous permettront de vous déplacer et de gérer les fichiers et répertoires dans un environnement Linux.&#xA;Commandes de base pwd (print working directory)&#xA;Description : Affiche le chemin complet du répertoire courant. Utilisation : pwd Exemple : /home/utilisateur ls (list)&#xA;Description : Liste les fichiers et répertoires dans le répertoire courant. Utilisation : ls Options Courantes : ls -l : Affiche les détails des fichiers et répertoires (permissions, propriétaire, taille, etc.). ls -a : Affiche tous les fichiers, y compris les fichiers cachés (ceux commençant par un point). ls -lh : Affiche les tailles de fichiers dans un format lisible (Ko, Mo, Go). Exemple : ls -l total 12 drwxr-xr-x 2 utilisateur utilisateur 4096 jan 1 12:00 Documents -rw-r--r-- 1 utilisateur utilisateur 123 jan 1 12:00 fichier.txt cd (change directory)</description>
+    </item>
+    <item>
+      <title>ATELIER: Les commandes Linux de base</title>
+      <link>https://example.org/semaine2/atelier/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/semaine2/atelier/index.html</guid>
+      <description>A FAIRE&#xA;Indiquer les commandes à utiliser Désinstaller Ubuntu et reinstaller en prenant captures Indiquer de prendre la plu récente version d’Ubuntu ajouter objectifs pour Ubuntu Ajouter exos avec etc/ et historique (ajouter dans matière cours) Préalables 1. Installation et activation de Windows Subsystem for Linux (WSL) Rechercher les fonctionnalités Windows Installation de Windows Subsystem for Linux (WSL) Dans la liste, cocher *Sous-Système Windows pour Linux</description>
+    </item>
+  </channel>
+</rss>

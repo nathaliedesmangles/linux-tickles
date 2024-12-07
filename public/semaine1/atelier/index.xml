@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ATELIER: Installation de Linux sur une VM :: 420-ZG4-MO Linux</title>
+    <link>https://example.org/semaine1/atelier/index.html</link>
+    <description>Objectif Cet atelier a pour but de vous guider à travers le processus d’installation de Linux sur une machine virtuelle (VM). Cela permet d’expérimenter avec Linux sans affecter le système d’exploitation principal de l’ordinateur.&#xA;Prérequis Un ordinateur avec un système d’exploitation Windows, macOS ou Linux. Une connexion Internet. Un logiciel de virtualisation tel que VirtualBox (gratuit) ou VMware Workstation. Étapes de l’atelier Téléchargement du logiciel de virtualisation&#xA;VirtualBox : Téléchargez et installez VirtualBox depuis le site officiel VirtualBox. VMware : Téléchargez et installez VMware Workstation Player depuis le site officiel VMware. Téléchargement de l’Image ISO de Linux</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.org/semaine1/atelier/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

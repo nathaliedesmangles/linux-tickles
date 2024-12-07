@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ATELIER: Les commandes Linux de base :: 420-ZG4-MO Linux</title>
+    <link>https://example.org/semaine2/atelier/index.html</link>
+    <description>A FAIRE&#xA;Indiquer les commandes à utiliser Désinstaller Ubuntu et reinstaller en prenant captures Indiquer de prendre la plu récente version d’Ubuntu ajouter objectifs pour Ubuntu Ajouter exos avec etc/ et historique (ajouter dans matière cours) Préalables 1. Installation et activation de Windows Subsystem for Linux (WSL) Rechercher les fonctionnalités Windows Installation de Windows Subsystem for Linux (WSL) Dans la liste, cocher *Sous-Système Windows pour Linux</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.org/semaine2/atelier/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

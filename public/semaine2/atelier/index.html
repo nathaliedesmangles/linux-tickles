@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.135.0">
+    <meta name="generator" content="Relearn 7.1.1">
+    <meta name="description" content="A FAIRE
+Indiquer les commandes à utiliser Désinstaller Ubuntu et reinstaller en prenant captures Indiquer de prendre la plu récente version d’Ubuntu ajouter objectifs pour Ubuntu Ajouter exos avec etc/ et historique (ajouter dans matière cours) Préalables 1. Installation et activation de Windows Subsystem for Linux (WSL) Rechercher les fonctionnalités Windows Installation de Windows Subsystem for Linux (WSL) Dans la liste, cocher *Sous-Système Windows pour Linux">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="ATELIER: Les commandes Linux de base :: 420-ZG4-MO Linux">
+    <meta name="twitter:description" content="A FAIRE
+Indiquer les commandes à utiliser Désinstaller Ubuntu et reinstaller en prenant captures Indiquer de prendre la plu récente version d’Ubuntu ajouter objectifs pour Ubuntu Ajouter exos avec etc/ et historique (ajouter dans matière cours) Préalables 1. Installation et activation de Windows Subsystem for Linux (WSL) Rechercher les fonctionnalités Windows Installation de Windows Subsystem for Linux (WSL) Dans la liste, cocher *Sous-Système Windows pour Linux">
+    <meta property="og:url" content="https://example.org/semaine2/atelier/index.html">
+    <meta property="og:site_name" content="420-ZG4-MO Linux">
+    <meta property="og:title" content="ATELIER: Les commandes Linux de base :: 420-ZG4-MO Linux">
+    <meta property="og:description" content="A FAIRE
+Indiquer les commandes à utiliser Désinstaller Ubuntu et reinstaller en prenant captures Indiquer de prendre la plu récente version d’Ubuntu ajouter objectifs pour Ubuntu Ajouter exos avec etc/ et historique (ajouter dans matière cours) Préalables 1. Installation et activation de Windows Subsystem for Linux (WSL) Rechercher les fonctionnalités Windows Installation de Windows Subsystem for Linux (WSL) Dans la liste, cocher *Sous-Système Windows pour Linux">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="ATELIER: Les commandes Linux de base :: 420-ZG4-MO Linux">
+    <meta itemprop="description" content="A FAIRE
+Indiquer les commandes à utiliser Désinstaller Ubuntu et reinstaller en prenant captures Indiquer de prendre la plu récente version d’Ubuntu ajouter objectifs pour Ubuntu Ajouter exos avec etc/ et historique (ajouter dans matière cours) Préalables 1. Installation et activation de Windows Subsystem for Linux (WSL) Rechercher les fonctionnalités Windows Installation de Windows Subsystem for Linux (WSL) Dans la liste, cocher *Sous-Système Windows pour Linux">
+    <meta itemprop="wordCount" content="877">
+    <title>ATELIER: Les commandes Linux de base :: 420-ZG4-MO Linux</title>
+    <link href="/semaine2/atelier/index.xml" rel="alternate" type="application/rss+xml" title="ATELIER: Les commandes Linux de base :: 420-ZG4-MO Linux">
+    <link href="/css/fontawesome-all.min.css?1733598395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1733598395" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1733598395" rel="stylesheet">
+    <link href="/css/auto-complete.css?1733598395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1733598395" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1733598395" rel="stylesheet">
+    <link href="/css/fonts.css?1733598395" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1733598395" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1733598395" rel="stylesheet">
+    <link href="/css/theme-blue.css?1733598395" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-learn.css?1733598395" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/print.css?1733598395" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1733598395"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='https:\/\/example.org';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'blue' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/semaine2/atelier/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#préalables">Préalables</a>
+      <ul>
+        <li><a href="#1-installation-et-activation-de-windows-subsystem-for-linux-wsl">1. Installation et activation de <em>Windows Subsystem for Linux</em> (WSL)</a></li>
+        <li><a href="#installation-de-windows-subsystem-for-linux-wsl">Installation de <em>Windows Subsystem for Linux</em> (WSL)</a></li>
+        <li><a href="#installation-dubuntu-wsl">Installation d&rsquo;Ubuntu WSL</a></li>
+      </ul>
+    </li>
+    <li><a href="#objectif-de-latelier">Objectif de l&rsquo;atelier</a></li>
+    <li><a href="#mettre-à-jour-windows">Mettre à jour Windows</a></li>
+    <li><a href="#atelier">Atelier</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">420-ZG4-MO</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/semaine2/index.html"><span itemprop="name">Les commandes de base</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">ATELIER: Les commandes Linux de base</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/semaine2/commandes-base/index.html" title="Commandes de navigation de base sous Linux (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/semaine3/index.html" title="Semaine 3 : Éditeurs de texte (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable semaine2" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="atelier-les-commandes-linux-de-base">ATELIER: Les commandes Linux de base</h1>
+
+<p>A FAIRE</p>
+<ul>
+<li>Indiquer les commandes à utiliser</li>
+<li>Désinstaller Ubuntu et reinstaller en prenant captures</li>
+<li>Indiquer de prendre la plu récente version d&rsquo;Ubuntu</li>
+<li>ajouter objectifs pour Ubuntu</li>
+<li>Ajouter exos avec etc/ et historique (ajouter dans matière cours)</li>
+</ul>
+<h2 id="préalables">Préalables</h2>
+<h3 id="1-installation-et-activation-de-windows-subsystem-for-linux-wsl">1. Installation et activation de <em>Windows Subsystem for Linux</em> (WSL)</h3>
+<ol>
+<li>Rechercher les fonctionnalités Windows</li>
+</ol>
+<p><a href="#R-image-fd4c57798b26539d4a71dbc8a3eec014" class="lightbox-link"><img alt="Recherche fonctionnalités" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/semaine2/atelier/recherche-fonctionnalites.png?width=30vw" style=" height: auto; width: 30vw;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fd4c57798b26539d4a71dbc8a3eec014"><img alt="Recherche fonctionnalités" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/semaine2/atelier/recherche-fonctionnalites.png?width=30vw"></a></p>
+<h3 id="installation-de-windows-subsystem-for-linux-wsl">Installation de <em>Windows Subsystem for Linux</em> (WSL)</h3>
+<ol start="2">
+<li>Dans la liste, cocher *<strong>Sous-Système Windows pour Linux</strong></li>
+</ol>
+<p><a href="#R-image-9ff591feca348eca5a61e92cc5728717" class="lightbox-link"><img alt="Activer fonctionnalités" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/semaine2/atelier/activer-fonctionnalite.png?width=40vw" style=" height: auto; width: 40vw;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9ff591feca348eca5a61e92cc5728717"><img alt="Activer fonctionnalités" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/semaine2/atelier/activer-fonctionnalite.png?width=40vw"></a></p>
+<ol start="3">
+<li>Redémarrer</li>
+</ol>
+<p>Vous pouvez maintenant installer la distribution Ubuntu depuis le Microsoft Store.</p>
+<h3 id="installation-dubuntu-wsl">Installation d&rsquo;Ubuntu WSL</h3>
+<p>WSL prend en charge une variété de distributions Linux, y compris la dernière version LTS d&rsquo;Ubuntu.</p>
+<p>Il existe plusieurs façons d&rsquo;installer des distributions sur WSL, nous nous concentrons ici sur deux méthodes : Via l&rsquo;application dans Microsoft Store et les commandes WSL exécutées dans le terminal. Le résultat est le même quelle que soit la méthode.</p>
+<p><strong>Méthode 1 : Application dans Microsoft Store</strong></p>
+<p>Trouvez la distribution que vous préférez sur le Microsoft Store, cliquez sur <strong>Gratuit</strong>, puis sur <strong>Obtenir</strong>.</p>
+<p>Dans la fenêtre Ubuntu: patienter durant l’installation</p>
+<p><a href="#R-image-b18f0864d93a8a164a892a943b6c716c" class="lightbox-link"><img alt="Page d&rsquo;installation pour Ubuntu 24.04 LTS dans le Microsoft Store." class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/semaine2/atelier/choose-distribution.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b18f0864d93a8a164a892a943b6c716c"><img alt="Page d&rsquo;installation pour Ubuntu 24.04 LTS dans le Microsoft Store." class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/semaine2/atelier/choose-distribution.png"></a></p>
+<p>Ubuntu sera alors installé sur votre machine. Une fois installé, vous pouvez soit lancer l&rsquo;application directement depuis le Microsoft Store, soit rechercher Ubuntu dans votre barre de recherche Windows.</p>
+<p><a href="#R-image-4601f7251b4343c6de38468836b4736c" class="lightbox-link"><img alt="Résultats de recherche pour Ubuntu 24.04 LTS dans la barre de recherche Windows." class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/semaine2/atelier/search-ubuntu-windows.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4601f7251b4343c6de38468836b4736c"><img alt="Résultats de recherche pour Ubuntu 24.04 LTS dans la barre de recherche Windows." class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/semaine2/atelier/search-ubuntu-windows.png"></a></p>
+<hr>
+<p><strong>References</strong>:</p>
+<ol>
+<li><a href="https://documentation.ubuntu.com/wsl/en/latest/guides/install-ubuntu-wsl2/" rel="external" target="_blank">Site Ubuntu WSL</a></li>
+<li><a href="https://youtu.be/HrAsmXy1-78?si=VyvuNbkGmthsnLAI" rel="external" target="_blank">Vidéo YouTube</a></li>
+</ol>
+<h2 id="objectif-de-latelier">Objectif de l&rsquo;atelier</h2>
+<p>Cet atelier a pour but de vous familiariser avec les commandes simples et de base sous Linux. Les exercices pratiques permettront de renforcer la compréhension et l&rsquo;utilisation de ces commandes.</p>
+<div class="box notices cstyle warning">
+  <div class="box-label">
+    <i class="fa-fw fas fa-exclamation-triangle"></i> Attention
+  </div>
+  <div class="box-content">
+<p>Votre Windows 10/11 de votre VM doit être à jour.</p>
+  </div>
+</div>
+<h2 id="mettre-à-jour-windows">Mettre à jour Windows</h2>
+<p><strong>Pour Windows 10</strong>:</p>
+<p>Cliquer sur <a href="https://www.microsoft.com/fr-ca/software-download/windows10" rel="external" target="_blank">Mise à jour de Windows 10</a> et cliquer sur <strong>Mettre à jour maintenant.</strong></p>
+<p><strong>Pour Windows 11</strong>:</p>
+<p>Cliquer sur <a href="https://support.microsoft.com/fr-fr/windows/mettez-%C3%A0-jour-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a#WindowsVersion=Windows_11" rel="external" target="_blank">Installer Windows Mise à jour</a>, puis cliquer sur <strong>Rechercher les mises à jour de Windows</strong> et suivre les étapes.</p>
+<h2 id="atelier">Atelier</h2>
+<p>Ouvrez un terminal Ubuntu.</p>
+<ol>
+<li>
+<p><strong>Afficher la date et l&rsquo;heure actuelles du système.</strong></p>
+<ul>
+<li>Tapez la commande pour afficher la date et l&rsquo;heure actuelles.</li>
+<li>Observez la sortie qui affiche la date et l&rsquo;heure actuelles du système.</li>
+</ul>
+</li>
+<li>
+<p><strong>Changer le mot de passe de l&rsquo;utilisateur.</strong></p>
+<ul>
+<li>Tapez la commande pour changer le mot de passe.</li>
+<li>Entrez votre mot de passe actuel lorsque vous y êtes invité.</li>
+<li>Entrez votre nouveau mot de passe et confirmez-le.</li>
+</ul>
+</li>
+<li>
+<p><strong>Afficher le contenu d&rsquo;un fichier.</strong></p>
+<ul>
+<li>Créez un fichier texte avec du contenu.</li>
+<li>Tapez la commande pour afficher le contenu du fichier.</li>
+<li>Observez la sortie qui affiche le contenu du fichier.</li>
+</ul>
+</li>
+<li>
+<p><strong>Afficher le contenu d&rsquo;un fichier page par page.</strong></p>
+<ul>
+<li>Tapez la commande pour afficher le contenu d&rsquo;un fichier page par page.</li>
+<li>Utilisez les touches suivantes pour naviguer :
+<ul>
+<li><code>Espace</code> : Page suivante</li>
+<li><code>b</code> : Page précédente</li>
+<li><code>q</code> : Quitter</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Afficher les premières lignes d&rsquo;un fichier.</strong></p>
+<ul>
+<li>Tapez la commande pour afficher les premières lignes d&rsquo;un fichier.</li>
+<li>Pour afficher un nombre spécifique de lignes, utilisez l&rsquo;option appropriée.</li>
+</ul>
+</li>
+<li>
+<p><strong>Afficher les dernières lignes d&rsquo;un fichier.</strong></p>
+<ul>
+<li>Tapez la commande pour afficher les dernières lignes d&rsquo;un fichier.</li>
+<li>Pour afficher un nombre spécifique de lignes, utilisez l&rsquo;option appropriée.</li>
+<li>Pour afficher les nouvelles lignes ajoutées en temps réel, utilisez l&rsquo;option appropriée.</li>
+</ul>
+</li>
+<li>
+<p><strong>Exécuter plusieurs commandes sur une seule ligne.</strong></p>
+<ul>
+<li>Tapez la commande pour exécuter plusieurs commandes sur une seule ligne.</li>
+<li>Observez la sortie qui affiche les résultats des commandes exécutées.</li>
+</ul>
+</li>
+<li>
+<p><strong>Afficher le chemin complet du répertoire courant.</strong></p>
+<ul>
+<li>Tapez la commande pour afficher le chemin complet du répertoire courant.</li>
+<li>Observez la sortie qui affiche le chemin complet du répertoire courant.</li>
+</ul>
+</li>
+<li>
+<p><strong>Lister les fichiers et répertoires dans le répertoire courant.</strong></p>
+<ul>
+<li>Tapez la commande pour lister les fichiers et répertoires dans le répertoire courant.</li>
+<li>Pour afficher les détails des fichiers et répertoires, utilisez l&rsquo;option appropriée.</li>
+<li>Pour afficher tous les fichiers, y compris les fichiers cachés, utilisez l&rsquo;option appropriée.</li>
+<li>Pour afficher les tailles de fichiers dans un format lisible, utilisez l&rsquo;option appropriée.</li>
+</ul>
+</li>
+<li>
+<p><strong>Changer le répertoire courant.</strong></p>
+<ul>
+<li>Tapez la commande pour aller dans le répertoire <code>/home</code>.</li>
+<li>Tapez la commande pour vérifier le répertoire courant.</li>
+<li>Tapez la commande pour remonter d&rsquo;un niveau dans l&rsquo;arborescence des répertoires.</li>
+<li>Tapez la commande pour vérifier le répertoire courant.</li>
+<li>Tapez la commande pour aller directement au répertoire personnel de l&rsquo;utilisateur.</li>
+<li>Tapez la commande pour vérifier le répertoire courant.</li>
+</ul>
+</li>
+<li>
+<p><strong>Créer un nouveau répertoire.</strong></p>
+<ul>
+<li>Tapez la commande pour créer un nouveau répertoire.</li>
+<li>Tapez la commande pour vérifier que le répertoire a été créé.</li>
+</ul>
+</li>
+<li>
+<p><strong>Supprimer un répertoire vide.</strong></p>
+<ul>
+<li>Tapez la commande pour supprimer le nouveau répertoire créé au #11.</li>
+<li>Tapez la commande pour vérifier que le répertoire a été supprimé.</li>
+</ul>
+</li>
+<li>
+<p><strong>Supprimer des fichiers ou des répertoires.</strong></p>
+<ul>
+<li>Créez des fichiers pour l&rsquo;exercice.</li>
+<li>Tapez la commande pour supprimer un fichier.</li>
+<li>Tapez la commande pour vérifier que le fichier a été supprimé.</li>
+<li>Tapez la commande pour forcer la suppression d&rsquo;un fichier sans confirmation.</li>
+<li>Tapez la commande pour vérifier que le fichier a été supprimé.</li>
+</ul>
+</li>
+<li>
+<p><strong>Copier des fichiers ou des répertoires.</strong></p>
+<ul>
+<li>Créez un fichier pour l&rsquo;exercice.</li>
+<li>Tapez la commande pour copier un fichier.</li>
+<li>Tapez la commande pour vérifier que le fichier a été copié.</li>
+<li>Créez un répertoire pour l&rsquo;exercice.</li>
+<li>Tapez la commande pour copier un fichier dans un répertoire.</li>
+<li>Tapez la commande pour vérifier que le fichier a été copié dans le répertoire.</li>
+</ul>
+</li>
+<li>
+<p><strong>Déplacer ou renommer des fichiers ou des répertoires.</strong></p>
+<ul>
+<li>Tapez la commande pour renommer un fichier.</li>
+<li>Tapez la commande pour vérifier que le fichier a été renommé.</li>
+<li>Tapez la commande pour déplacer un fichier dans un répertoire.</li>
+<li>Tapez la commande pour vérifier que le fichier a été déplacé dans le répertoire.</li>
+</ul>
+</li>
+</ol>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+420-ZG4-MO Linux
+          </a>
+        </div>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-shortcutmenu-home" class="R-sidebarmenu">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/semaine1/index.html"><a class="padding" href="/semaine1/index.html"><b>Semaine 1. </b>Introduction à Linux</a><ul id="R-subsections-6db614d031e1cac329e6c8b2f083c50f" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/semaine2/index.html"><a class="padding" href="/semaine2/index.html"><b>Semaine 2. </b>Les commandes de base</a><ul id="R-subsections-30aa4391f5b81ccda88d9d93cb48f88e" class="collapsible-menu">
+            <li class="" data-nav-id="/semaine2/intro-shell-bash/index.html"><a class="padding" href="/semaine2/intro-shell-bash/index.html">Exécution de commandes à l’aide du Shell Bash</a></li>
+            <li class="" data-nav-id="/semaine2/systeme-fichiers/index.html"><a class="padding" href="/semaine2/systeme-fichiers/index.html">Structure du système de fichiers Linux</a></li>
+            <li class="" data-nav-id="/semaine2/commandes-base/index.html"><a class="padding" href="/semaine2/commandes-base/index.html">Commandes de navigation de base sous Linux</a></li>
+            <li class="active " data-nav-id="/semaine2/atelier/index.html"><a class="padding" href="/semaine2/atelier/index.html">ATELIER: Les commandes Linux de base</a></li></ul></li>
+            <li class="" data-nav-id="/semaine3/index.html"><a class="padding" href="/semaine3/index.html">Semaine 3 : Éditeurs de texte</a></li>
+            <li class="" data-nav-id="/semaine4/index.html"><a class="padding" href="/semaine4/index.html">Semaine 4 : Introduction au BASH</a></li>
+            <li class="" data-nav-id="/semaine5/index.html"><a class="padding" href="/semaine5/index.html">Semaine 5 : Processus et gestion des tâches</a></li>
+            <li class="" data-nav-id="/semaine6/index.html"><a class="padding" href="/semaine6/index.html">Semaine 6 : Les expressions régulières</a></li>
+            <li class="" data-nav-id="/semaine7/index.html"><a class="padding" href="/semaine7/index.html">Semaine 7 : Les fichiers de configuration et examen formatif</a></li>
+            <li class="" data-nav-id="/semaine8/index.html"><a class="padding" href="/semaine8/index.html">Semaine 8 : Gestion des paquets</a></li>
+            <li class="" data-nav-id="/semaine9/index.html"><a class="padding" href="/semaine9/index.html">Semaine 9 : Réseaux et configuration</a></li>
+            <li class="" data-nav-id="/semaine10/index.html"><a class="padding" href="/semaine10/index.html">Semaine 10 : Sécurité de base</a></li>
+            <li class="" data-nav-id="/semaine11/index.html"><a class="padding" href="/semaine11/index.html">Semaine 11 : Scripting Shell</a></li>
+            <li class="" data-nav-id="/semaine12/index.html"><a class="padding" href="/semaine12/index.html">Semaine 12 : Travaux pratiques 1</a></li>
+            <li class="" data-nav-id="/semaine13/index.html"><a class="padding" href="/semaine13/index.html">Semaine 13 : Administration avancée</a></li>
+            <li class="" data-nav-id="/semaine14/index.html"><a class="padding" href="/semaine14/index.html">Semaine 14 : Travaux pratiques 2</a></li>
+            <li class="" data-nav-id="/semaine15/index.html"><a class="padding" href="/semaine15/index.html">Semaine 15 : Révision finale et examen</a></li>
+            <li class="" data-nav-id="/solutionnaires/index.html"><a class="padding" href="/solutionnaires/index.html">Solutions des ateliers</a><ul id="R-subsections-fd65cb0835a655cc8c1280a4fc3f2b90" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+    
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/semaine2/atelier/index.html" lang="en" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-blue" value="blue" selected>Blue</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter">
+        <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1733598395" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1733598395" defer></script>
+    <script src="/js/theme.js?1733598395" defer></script>
+  </body>
+</html>
